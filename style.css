@@ -11,6 +11,7 @@
     width: 100vw;
     justify-content: space-evenly;
     z-index: 1;
+    top: 0;
 }
 ul,li{
     list-style-type: none;
@@ -110,4 +111,25 @@ h2{
     flex-direction: column;
     justify-content: center;
     color: white;
+}
+.part2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    width: 100vw;
+    margin-top: 38%;
+    justify-content: center;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.r{
+    margin-left: 100px;
+    margin-top: 80px;
 }
